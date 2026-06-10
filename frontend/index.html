@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Face Attendance</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="brand-mark" aria-hidden="true">
+            <span></span>
+          </div>
+          <div>
+            <h1>Face Attendance</h1>
+            <p id="sessionStatus">Signed out</p>
+          </div>
+        </div>
+
+        <nav class="nav" aria-label="Primary">
+          <button class="nav-item active" data-view="recognitionView" type="button">
+            <span aria-hidden="true">◎</span>
+            Recognition
+          </button>
+          <button class="nav-item" data-view="enrollmentView" type="button">
+            <span aria-hidden="true">＋</span>
+            Enrollment
+          </button>
+          <button class="nav-item" data-view="sessionView" type="button">
+            <span aria-hidden="true">●</span>
+            Session
+          </button>
+        </nav>
+
+        <div class="status-panel">
+          <span class="status-dot" id="apiDot"></span>
+          <span id="apiStatus">Gateway pending</span>
+        </div>
+      </aside>
+
+      <main class="workspace">
+        <section class="topbar">
+          <div>
+            <p class="eyebrow">Gateway</p>
+            <h2 id="viewTitle">Recognition</h2>
+          </div>
+          <div class="server-control">
+            <label for="apiBase">API</label>
+            <input id="apiBase" type="url" value="http://127.0.0.1:8000">
+          </div>
+        </section>
+
+        <section class="view active" id="recognitionView">
+          <div class="recognition-grid">
+            <div class="camera-surface">
+              <video id="cameraVideo" autoplay playsinline muted></video>
+              <canvas id="captureCanvas" hidden></canvas>
+              <div class="camera-empty" id="cameraEmpty">
+                <strong>Camera offline</strong>
+                <span>Select a file or start camera</span>
+              </div>
+            </div>
+
+            <div class="action-panel">
+              <div class="segmented" role="tablist" aria-label="Recognition source">
+                <button class="segment active" id="cameraMode" type="button">Camera</button>
+                <button class="segment" id="fileMode" type="button">File</button>
+              </div>
+
+              <div class="source-pane active" id="cameraPane">
+                <div class="button-row">
+                  <button class="primary" id="startCameraBtn" type="button">Start Camera</button>
+                  <button class="secondary" id="captureBtn" type="button" disabled>Capture</button>
+                </div>
+              </div>
+
+              <div class="source-pane" id="filePane">
+                <label class="file-picker" for="recognizeFile">
+                  <span>Choose face image</span>
+                  <input id="recognizeFile" type="file" accept="image/*">
+                </label>
+              </div>
+
+              <button class="primary wide" id="recognizeBtn" type="button" disabled>
+                Recognize & Mark
+              </button>
+            </div>
+          </div>
+
+          <div class="result-band" id="recognitionResult">
+            <div>
+              <p class="eyebrow">Result</p>
+              <h3>No scan yet</h3>
+            </div>
+          </div>
+        </section>
+
+        <section class="view" id="enrollmentView">
+          <form class="form-layout" id="enrollForm">
+            <div class="field">
+              <label for="employeeName">Name</label>
+              <input id="employeeName" name="name" type="text" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label for="employeeCode">Employee Code</label>
+              <input id="employeeCode" name="employee_code" type="text" required>
+            </div>
+            <div class="field full">
+              <label class="file-picker" for="enrollImage">
+                <span id="enrollFileLabel">Choose enrollment image</span>
+                <input id="enrollImage" name="image" type="file" accept="image/*" required>
+              </label>
+            </div>
+            <button class="primary" type="submit">Enroll Employee</button>
+          </form>
+
+          <div class="result-band" id="enrollmentResult">
+            <div>
+              <p class="eyebrow">Enrollment</p>
+              <h3>Ready</h3>
+            </div>
+          </div>
+        </section>
+
+        <section class="view" id="sessionView">
+          <form class="form-layout compact" id="loginForm">
+            <div class="field">
+              <label for="username">Username</label>
+              <input id="username" type="text" autocomplete="username" required>
+            </div>
+            <div class="field">
+              <label for="password">Password</label>
+              <input id="password" type="password" autocomplete="current-password" required>
+            </div>
+            <button class="primary" type="submit">Sign In</button>
+            <button class="secondary" id="logoutBtn" type="button">Sign Out</button>
+          </form>
+
+          <div class="token-box">
+            <p class="eyebrow">Token</p>
+            <code id="tokenPreview">None</code>
+          </div>
+        </section>
+
+        <section class="activity">
+          <div class="activity-header">
+            <h2>Activity</h2>
+            <button class="icon-button" id="clearActivityBtn" type="button" title="Clear activity">×</button>
+          </div>
+          <div class="activity-list" id="activityList"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

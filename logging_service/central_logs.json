@@ -1,0 +1,130 @@
+{"service_name": "gateway-service", "level": "INFO", "message": "GET /docs completed in 0.001s", "timestamp": "2026-03-05T11:27:41.903946+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "GET /openapi.json completed in 0.0469s", "timestamp": "2026-03-05T11:27:43.371023+00:00"}
+{"service_name": "auth-service", "level": "INFO", "message": "User logged in: shubham", "timestamp": "2026-03-05T11:28:10.917242+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "Login forwarded to auth service", "timestamp": "2026-03-05T11:28:13.521741+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "POST /api/login completed in 5.5132s", "timestamp": "2026-03-05T11:28:13.850863+00:00"}
+{"service_name": "enrollment-service", "level": "INFO", "message": "Employee enrolled: EMP001", "timestamp": "2026-03-05T11:29:59.581981+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "GET /docs completed in 0.0s", "timestamp": "2026-03-05T17:42:48.092574+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "GET /openapi.json completed in 0.0852s", "timestamp": "2026-03-05T17:42:49.595964+00:00"}
+{"service_name": "auth-service", "level": "INFO", "message": "User logged in: shubham", "timestamp": "2026-03-05T17:46:57.609601+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "Login forwarded to auth service", "timestamp": "2026-03-05T17:46:58.557557+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "POST /api/login completed in 4.1549s", "timestamp": "2026-03-05T17:46:58.857857+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "Recognition service called", "timestamp": "2026-03-05T17:49:45.451767+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "POST /api/recognize completed in 33.8676s", "timestamp": "2026-03-05T17:49:45.751956+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "POST /api/recognize completed in 0.3002s", "timestamp": "2026-03-05T18:22:24.962224+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "POST /api/recognize completed in 0.0529s", "timestamp": "2026-03-05T18:23:06.539643+00:00"}
+{"service_name": "auth-service", "level": "INFO", "message": "User logged in: shubham", "timestamp": "2026-03-05T18:28:43.523474+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "Login forwarded to auth service", "timestamp": "2026-03-05T18:28:44.715287+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "POST /api/login completed in 3.722s", "timestamp": "2026-03-05T18:28:45.044406+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "Recognition service called", "timestamp": "2026-03-05T18:29:52.872275+00:00"}
+{"service_name": "gateway-service", "level": "ERROR", "message": "Recognition failed", "timestamp": "2026-03-05T18:29:53.241289+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "POST /api/recognize completed in 1.4262s", "timestamp": "2026-03-05T18:29:53.566418+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "GET / completed in 0.0s", "timestamp": "2026-06-06T04:49:39.460284+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "GET /favicon.ico completed in 0.0s", "timestamp": "2026-06-06T04:49:40.660250+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "GET / completed in 0.0s", "timestamp": "2026-06-06T04:51:34.087844+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "GET / completed in 0.0s", "timestamp": "2026-06-06T04:51:37.198226+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "GET /docs completed in 0.0s", "timestamp": "2026-06-06T04:52:04.238925+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "GET /openapi.json completed in 0.0755s", "timestamp": "2026-06-06T04:52:05.704148+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "POST /api/enroll completed in 0.0171s", "timestamp": "2026-06-06T04:54:38.577320+00:00"}
+{"service_name": "auth-service", "level": "INFO", "message": "User registered: shubham", "timestamp": "2026-06-06T04:59:30.247166+00:00"}
+{"service_name": "auth-service", "level": "INFO", "message": "User logged in: shubham", "timestamp": "2026-06-06T05:02:01.110871+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "Enrollment request forwarded", "timestamp": "2026-06-06T05:03:27.233819+00:00"}
+{"service_name": "gateway-service", "level": "ERROR", "message": "Enrollment failed", "timestamp": "2026-06-06T05:03:27.587790+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "POST /api/enroll completed in 16.7839s", "timestamp": "2026-06-06T05:03:27.923188+00:00"}
+{"service_name": "enrollment-service", "level": "INFO", "message": "Employee enrolled: 101", "timestamp": "2026-06-06T05:11:43.452973+00:00"}
+{"service_name": "auth-service", "level": "INFO", "message": "User logged in: shubham", "timestamp": "2026-06-06T05:11:49.827893+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "Login forwarded to auth service", "timestamp": "2026-06-06T05:11:51.085713+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "POST /api/login completed in 3.2492s", "timestamp": "2026-06-06T05:11:51.438075+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "Enrollment request forwarded", "timestamp": "2026-06-06T05:12:26.563437+00:00"}
+{"service_name": "gateway-service", "level": "ERROR", "message": "Enrollment failed", "timestamp": "2026-06-06T05:12:26.885552+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "POST /api/enroll completed in 3.1672s", "timestamp": "2026-06-06T05:12:27.211222+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "Recognition service called", "timestamp": "2026-06-06T05:14:40.494857+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "POST /api/recognize completed in 2.0095s", "timestamp": "2026-06-06T05:14:40.842683+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "Recognition service called", "timestamp": "2026-06-06T05:22:38.201950+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "POST /api/recognize completed in 35.9007s", "timestamp": "2026-06-06T05:22:38.518265+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "Attendance request forwarded", "timestamp": "2026-06-06T05:26:10.786099+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "POST /api/attendance completed in 1.5797s", "timestamp": "2026-06-06T05:26:11.100345+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "Attendance request forwarded", "timestamp": "2026-06-06T05:26:21.031863+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "POST /api/attendance completed in 0.7304s", "timestamp": "2026-06-06T05:26:21.391097+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "Attendance request forwarded", "timestamp": "2026-06-06T05:26:25.273511+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "POST /api/attendance completed in 0.716s", "timestamp": "2026-06-06T05:26:25.593125+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "Attendance request forwarded", "timestamp": "2026-06-06T05:26:28.534529+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "POST /api/attendance completed in 0.7827s", "timestamp": "2026-06-06T05:26:28.896501+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "Recognition service called", "timestamp": "2026-06-06T05:31:54.137381+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "Attendance marked after recognition", "timestamp": "2026-06-06T05:31:54.876522+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "POST /api/recognize completed in 48.8718s", "timestamp": "2026-06-06T05:31:55.200998+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "Recognition service called", "timestamp": "2026-06-06T05:32:11.578769+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "Attendance marked after recognition", "timestamp": "2026-06-06T05:32:12.236952+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "POST /api/recognize completed in 2.6725s", "timestamp": "2026-06-06T05:32:12.557459+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "OPTIONS /api/login completed in 0.0s", "timestamp": "2026-06-06T05:44:47.645161+00:00"}
+{"service_name": "auth-service", "level": "INFO", "message": "User logged in: shubham", "timestamp": "2026-06-06T05:44:50.706561+00:00"}
+{"service_name": "auth-service", "level": "INFO", "message": "User logged in: shubham", "timestamp": "2026-06-06T05:44:52.430494+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "Login forwarded to auth service", "timestamp": "2026-06-06T05:44:52.577693+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "Login forwarded to auth service", "timestamp": "2026-06-06T05:44:52.849202+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "POST /api/login completed in 4.3289s", "timestamp": "2026-06-06T05:44:52.934046+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "POST /api/login completed in 2.9925s", "timestamp": "2026-06-06T05:44:53.173602+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "OPTIONS /api/protected completed in 0.001s", "timestamp": "2026-06-06T05:44:53.344221+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "OPTIONS /api/protected completed in 0.0027s", "timestamp": "2026-06-06T05:44:53.603300+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "Protected route accessed by None", "timestamp": "2026-06-06T05:44:53.981107+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "GET /api/protected completed in 0.4644s", "timestamp": "2026-06-06T05:44:54.300811+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "Protected route accessed by None", "timestamp": "2026-06-06T05:44:54.798299+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "GET /api/protected completed in 0.3205s", "timestamp": "2026-06-06T05:44:55.116780+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "OPTIONS /api/recognize completed in 0.001s", "timestamp": "2026-06-06T05:45:13.866709+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "Recognition service called", "timestamp": "2026-06-06T05:45:49.969235+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "Attendance marked after recognition", "timestamp": "2026-06-06T05:45:50.728213+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "POST /api/recognize completed in 36.8252s", "timestamp": "2026-06-06T05:45:51.041647+00:00"}
+{"service_name": "auth-service", "level": "INFO", "message": "User logged in: shubham", "timestamp": "2026-06-06T05:46:29.166174+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "Login forwarded to auth service", "timestamp": "2026-06-06T05:46:29.632000+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "POST /api/login completed in 1.8791s", "timestamp": "2026-06-06T05:46:29.961284+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "Protected route accessed by None", "timestamp": "2026-06-06T05:46:30.312799+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "GET /api/protected completed in 0.3076s", "timestamp": "2026-06-06T05:46:30.617417+00:00"}
+{"service_name": "auth-service", "level": "INFO", "message": "User logged in: shubham", "timestamp": "2026-06-06T05:46:48.765834+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "Login forwarded to auth service", "timestamp": "2026-06-06T05:46:49.181260+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "POST /api/login completed in 1.8259s", "timestamp": "2026-06-06T05:46:49.518443+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "Protected route accessed by None", "timestamp": "2026-06-06T05:46:50.003653+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "GET /api/protected completed in 0.3149s", "timestamp": "2026-06-06T05:46:50.316510+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "OPTIONS /api/enroll completed in 0.0s", "timestamp": "2026-06-06T05:49:08.718797+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "Enrollment request forwarded", "timestamp": "2026-06-06T05:49:15.727210+00:00"}
+{"service_name": "gateway-service", "level": "ERROR", "message": "Enrollment failed", "timestamp": "2026-06-06T05:49:16.066229+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "POST /api/enroll completed in 7.1724s", "timestamp": "2026-06-06T05:49:16.395007+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "Protected route accessed by None", "timestamp": "2026-06-06T05:53:07.857776+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "GET /api/protected completed in 0.8518s", "timestamp": "2026-06-06T05:53:08.510943+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "Enrollment request forwarded", "timestamp": "2026-06-06T05:54:34.930046+00:00"}
+{"service_name": "gateway-service", "level": "ERROR", "message": "Enrollment failed", "timestamp": "2026-06-06T05:54:35.244920+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "POST /api/enroll completed in 11.3311s", "timestamp": "2026-06-06T05:54:35.568843+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "OPTIONS /api/enroll completed in 0.0s", "timestamp": "2026-06-06T06:00:01.859977+00:00"}
+{"service_name": "enrollment-service", "level": "INFO", "message": "Employee enrolled: 102", "timestamp": "2026-06-06T06:00:53.355097+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "OPTIONS /api/enroll completed in 0.002s", "timestamp": "2026-06-06T06:31:19.310803+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "Enrollment request forwarded", "timestamp": "2026-06-06T06:31:24.974367+00:00"}
+{"service_name": "gateway-service", "level": "ERROR", "message": "Enrollment failed", "timestamp": "2026-06-06T06:31:25.308803+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "POST /api/enroll completed in 5.9968s", "timestamp": "2026-06-06T06:31:25.660390+00:00"}
+{"service_name": "enrollment-service", "level": "INFO", "message": "Employee enrolled: 103", "timestamp": "2026-06-06T06:32:45.498778+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "Enrollment request forwarded", "timestamp": "2026-06-06T06:32:45.845567+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "POST /api/enroll completed in 7.6377s", "timestamp": "2026-06-06T06:32:46.160937+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "OPTIONS /api/protected completed in 0.001s", "timestamp": "2026-06-06T06:33:10.877006+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "Protected route accessed by None", "timestamp": "2026-06-06T06:33:11.292921+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "GET /api/protected completed in 0.3255s", "timestamp": "2026-06-06T06:33:11.610390+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "Protected route accessed by None", "timestamp": "2026-06-06T06:33:50.335820+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "GET /api/protected completed in 0.3487s", "timestamp": "2026-06-06T06:33:50.678597+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "OPTIONS /api/recognize completed in 0.0012s", "timestamp": "2026-06-06T06:33:59.424088+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "Recognition service called", "timestamp": "2026-06-06T06:34:04.421380+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "Attendance marked after recognition", "timestamp": "2026-06-06T06:34:05.321862+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "POST /api/recognize completed in 5.8693s", "timestamp": "2026-06-06T06:34:05.634689+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "Recognition service called", "timestamp": "2026-06-06T06:34:29.682688+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "Attendance marked after recognition", "timestamp": "2026-06-06T06:34:30.362423+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "POST /api/recognize completed in 2.8573s", "timestamp": "2026-06-06T06:34:30.678209+00:00"}
+{"service_name": "enrollment-service", "level": "INFO", "message": "Employee enrolled: 104", "timestamp": "2026-06-06T06:40:48.853946+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "Enrollment request forwarded", "timestamp": "2026-06-06T06:40:49.187351+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "POST /api/enroll completed in 5.0993s", "timestamp": "2026-06-06T06:40:49.495080+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "Recognition service called", "timestamp": "2026-06-06T06:41:13.772294+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "Attendance marked after recognition", "timestamp": "2026-06-06T06:41:14.483670+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "POST /api/recognize completed in 2.5206s", "timestamp": "2026-06-06T06:41:14.792645+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "Recognition service called", "timestamp": "2026-06-06T06:41:39.615213+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "Attendance marked after recognition", "timestamp": "2026-06-06T06:41:40.322119+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "POST /api/recognize completed in 2.7661s", "timestamp": "2026-06-06T06:41:40.665172+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "OPTIONS /api/protected completed in 0.0033s", "timestamp": "2026-06-06T06:43:23.248688+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "Protected route accessed by None", "timestamp": "2026-06-06T06:43:23.655864+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "GET /api/protected completed in 0.3274s", "timestamp": "2026-06-06T06:43:23.976208+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "Recognition service called", "timestamp": "2026-06-06T06:43:37.828391+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "Attendance marked after recognition", "timestamp": "2026-06-06T06:43:38.492871+00:00"}
+{"service_name": "gateway-service", "level": "INFO", "message": "POST /api/recognize completed in 2.0927s", "timestamp": "2026-06-06T06:43:38.813432+00:00"}
